@@ -1,6 +1,7 @@
 let i = 1;
 function setup() {
   createCanvas(400, 400);
+  background(100);
   for (i = 0; i < 100; i++) {
     let x = random(400);
     let y = random(400);

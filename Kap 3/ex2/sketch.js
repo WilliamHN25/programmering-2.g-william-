@@ -6,12 +6,11 @@ function setup() {
 
 function draw() {
   background(220);
-  if  (mouseIsPressed == true) {
-      if(mouseButton == LEFT ) {
-        circle(mouseX,mouseY,30,30);
-      }
-      else if (mouseButton == RIGHT) {
-        rect(mouseX,mouseY,40,30);
-      }
+  if (mouseIsPressed == true) {
+    if (mouseButton == LEFT) {
+      circle(mouseX, mouseY, 30, 30);
+    } else if (mouseButton == RIGHT) {
+      rect(mouseX, mouseY, 40, 30);
     }
-    }
+  }
+}
